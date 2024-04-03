@@ -5,6 +5,7 @@
     $nama_brand = $_POST['nama_brand'];
     $asal_brand = $_POST['asal_brand'];
     $website = $_POST['website'];
+
     $logo_brand = $_FILES['logo_brand']['name'];
     $file_tmp = $_FILES['logo_brand']['tmp_name'];
     
